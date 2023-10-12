@@ -1905,6 +1905,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Huy\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
