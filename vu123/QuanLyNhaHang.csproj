@@ -129,6 +129,7 @@
     <Content Include="datatables\css\cdn.datatables.net_1.13.6_css_jquery.dataTables.min.css" />
     <Content Include="datatables\js\cdn.datatables.net_1.13.6_js_jquery.dataTables.min.js" />
     <Content Include="Default.aspx" />
+    <Content Include="duy\code.jquery.com_jquery-3.3.1.slim.min.js" />
     <Content Include="favicon.ico" />
     <Content Include="fontawesome\css\all.css" />
     <Content Include="fontawesome\css\all.min.css" />
@@ -1905,7 +1906,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Huy\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
