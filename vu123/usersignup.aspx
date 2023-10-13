@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-          <div class="container-fluid">
+      <div class="container">
       <div class="row">
          <div class="col-md-8 mx-auto">
             <div class="card">
@@ -17,8 +17,7 @@
                   <div class="row">
                      <div class="col">
                         <center>
-                            <h3>Member Sign Up</h3>
-                           
+                           <h4>Member Sign Up</h4>
                         </center>
                      </div>
                   </div>
@@ -124,34 +123,29 @@
                   </div>
                   <div class="row">
                      <div class="col-md-6">
-                        <label>User ID</label>
+                        <label>Member ID</label>
                         <div class="form-group">
-                           <asp:TextBox class="form-control" ID="TextBox8" runat="server" placeholder="User ID" ReadOnly="True"></asp:TextBox>
+                           <asp:TextBox class="form-control" ID="TextBox8" runat="server" placeholder="User ID"></asp:TextBox>
                         </div>
                      </div>
                      <div class="col-md-6">
                         <label>Password</label>
                         <div class="form-group">
-                           <asp:TextBox class="form-control" ID="TextBox9" runat="server" placeholder="Password" TextMode="Password" ReadOnly="True"></asp:TextBox>
+                           <asp:TextBox class="form-control" ID="TextBox9" runat="server" placeholder="Email ID" TextMode="Password"></asp:TextBox>
                         </div>
                      </div>
-                     
                   </div>
                   <div class="row">
-                     <div class="col-8 mx-auto">
-                        <center>
-                           <div class="form-group">
-                              <asp:Button class="btn btn-success btn-block btn-lg" ID="Button1" runat="server" Text="Sign Up" />
-                           </div>
-                        </center>
+                     <div class="col">
+                        <div class="form-group">
+                           <asp:Button class="btn btn-success btn-block btn-lg" ID="Button1" runat="server" Text="Sign Up" OnClick="Button1_Click" />
+                        </div>
                      </div>
                   </div>
                </div>
             </div>
             <a href="homepage.aspx"><< Back to Home</a><br><br>
          </div>
-         
       </div>
-   </div>
    </div>
 </asp:Content>
