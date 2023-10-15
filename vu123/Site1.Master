@@ -13,7 +13,7 @@
     <script src="bootstrap/js/code.jquery.com_jquery-3.3.1.slim.min.js"></script>
     <script src="bootstrap/js/cdn.jsdelivr.net_npm_popper.js@1.14.7_dist_umd_popper.min.js"></script>
     <script src="bootstrap/js/cdn.jsdelivr.net_npm_bootstrap@4.3.1_dist_js_bootstrap.min.js"></script>
-    
+    <script src="datatables/js/cdn.datatables.net_1.13.6_js_jquery.dataTables.min.js"></script>
 
     <link href="css/customstylesheet.css" rel="stylesheet" />
     <asp:ContentPlaceHolder ID="head" runat="server">
@@ -25,8 +25,8 @@
         <div>
             <nav class="navbar navbar-expand-lg navbar-light">
                 <a class="navbar-brand" href="#">
-                    <img src="imgs/books.png" width="30" height="30" />
-                    E-Library
+                    <img src="imgs/Cafe-den.png" width="30" height="30" />
+                    E-Cafe
                 </a>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,7 +49,7 @@
 
                     <ul class="navbar-nav">
                         <li class="nav-item active">
-                            <asp:LinkButton class="nav-link" ID="LinkButton4" runat="server" OnClick="LinkButton4_Click">View Books</asp:LinkButton>
+                            <asp:LinkButton class="nav-link" ID="LinkButton4" runat="server" OnClick="LinkButton4_Click">View Cafe</asp:LinkButton>
                         </li>
                         
                         <li class="nav-item active">
@@ -90,13 +90,13 @@
                         <p>
                             <asp:LinkButton class="footerlinks" ID="LinkButton6" runat="server" OnClick="LinkButton6_Click">Admin Login</asp:LinkButton>
                             &nbsp;
-                            <asp:LinkButton class="footerlinks" ID="LinkButton11" runat="server" OnClick="LinkButton11_Click" Visible="False">Author Management</asp:LinkButton>
+                            <asp:LinkButton class="footerlinks" ID="LinkButton11" runat="server" OnClick="LinkButton11_Click" Visible="False">Roast Management</asp:LinkButton>
                             &nbsp;
-                            <asp:LinkButton class="footerlinks" ID="LinkButton12" runat="server" OnClick="LinkButton12_Click" Visible="False">Publisher Management</asp:LinkButton>
+                            <asp:LinkButton class="footerlinks" ID="LinkButton12" runat="server" OnClick="LinkButton12_Click" Visible="False">Types of Coffee</asp:LinkButton>
                             &nbsp;
-                            <asp:LinkButton class="footerlinks" ID="LinkButton8" runat="server" OnClick="LinkButton8_Click" Visible="False">Book Inventory</asp:LinkButton>
+                            <asp:LinkButton class="footerlinks" ID="LinkButton8" runat="server" OnClick="LinkButton8_Click" Visible="False">Cafe Inventory</asp:LinkButton>
                             &nbsp;
-                            <asp:LinkButton class="footerlinks" ID="LinkButton9" runat="server" OnClick="LinkButton9_Click" Visible="False">Book Issuing</asp:LinkButton>
+                            <asp:LinkButton class="footerlinks" ID="LinkButton9" runat="server" OnClick="LinkButton9_Click" Visible="False">Cafe Income</asp:LinkButton>
                             &nbsp;
                              <asp:LinkButton class="footerlinks" ID="LinkButton10" runat="server" OnClick="LinkButton10_Click" Visible="False">Member Management</asp:LinkButton>
                         </p>

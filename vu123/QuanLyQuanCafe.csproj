@@ -104,8 +104,6 @@
   <ItemGroup>
     <Content Include="About.aspx" />
     <Content Include="adminauthormanagement.aspx" />
-    <Content Include="adminbookinventory.aspx" />
-    <Content Include="adminbookissuing.aspx" />
     <Content Include="adminlogin.aspx" />
     <Content Include="adminmembermanagement.aspx" />
     <Content Include="adminpublishermanagement.aspx" />
@@ -1720,10 +1718,12 @@
     <Content Include="fontawesome\webfonts\fa-solid-900.svg" />
     <Content Include="Global.asax" />
     <Content Include="homepage.aspx" />
+    <Content Include="imgs\387472745_341710584993873_9126944984061317044_n.png" />
+    <Content Include="imgs\58428cc1a6515b1e0ad75ab1.png" />
     <Content Include="imgs\adminuser.png" />
     <Content Include="imgs\book-online.png" />
-    <Content Include="imgs\books.png" />
-    <Content Include="imgs\books1.png" />
+    <Content Include="imgs\Cafe đen.png" />
+    <Content Include="imgs\caramel-frappuccino.png" />
     <Content Include="imgs\defaulters-list.png" />
     <Content Include="imgs\digital-data.png" />
     <Content Include="imgs\digital-inventory.png" />
@@ -1732,10 +1732,11 @@
     <Content Include="imgs\in-homepage-banner.jpg" />
     <Content Include="imgs\library.png" />
     <Content Include="imgs\publisher.png" />
-    <Content Include="imgs\search-online.png" />
-    <Content Include="imgs\sign-up.png" />
+    <Content Include="imgs\Starbucks-Chocolate-Cream-Cold-Brew-with-Caramel-Syrup-in-a-Caramel-Lined-Cup.png" />
+    <Content Include="imgs\starbucks-Frozen-Lemonade-Refreshers-Beverages-062723-3-5dcdc45089e146b0a3a8d8fccd9e92b8.png" />
     <Content Include="imgs\tải xuống.jpg" />
     <Content Include="imgs\writer.png" />
+    <Content Include="imgs\ZYW73PPNERC65CE4KETVMMSTCM.png" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -1863,20 +1864,6 @@
     </Compile>
     <Compile Include="adminauthormanagement.aspx.designer.cs">
       <DependentUpon>adminauthormanagement.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="adminbookinventory.aspx.cs">
-      <DependentUpon>adminbookinventory.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="adminbookinventory.aspx.designer.cs">
-      <DependentUpon>adminbookinventory.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="adminbookissuing.aspx.cs">
-      <DependentUpon>adminbookissuing.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="adminbookissuing.aspx.designer.cs">
-      <DependentUpon>adminbookissuing.aspx</DependentUpon>
     </Compile>
     <Compile Include="adminlogin.aspx.cs">
       <DependentUpon>adminlogin.aspx</DependentUpon>

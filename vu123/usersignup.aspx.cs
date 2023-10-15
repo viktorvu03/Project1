@@ -41,7 +41,7 @@ namespace vu123
                 {
                     con.Open();
                 }
-                SqlCommand cmd = new SqlCommand("SELECT * from member_master_table where member_id='" + TextBox8.Text.Trim() + "';", con);
+                SqlCommand cmd = new SqlCommand("SELECT * from member_master_tbl where member_id='" + TextBox8.Text.Trim() + "';", con);
                 SqlDataAdapter da = new SqlDataAdapter(cmd);
                 DataTable dt = new DataTable();
                 da.Fill(dt);
@@ -56,7 +56,7 @@ namespace vu123
             }
             catch (Exception ex)
             {
-                //Response.Write("<script>alert('" + ex.Message + "');</script>");
+                Response.Write("<script>alert('" + ex.Message + "');</script>");
                 return false;
             }
         }
@@ -84,11 +84,11 @@ namespace vu123
                 cmd.Parameters.AddWithValue("@account_status", "pending");
                 cmd.ExecuteNonQuery();
                 con.Close();
-                //Response.Write("<script>alert('Sign Up Successful. Go to User Login to Login');</script>");
+                Response.Write("<script>alert('Sign Up Successful. Go to User Login to Login');</script>");
             }
             catch (Exception ex)
             {
-                Response.Write("alert('" + ex.Message + "')");
+                Response.Write("<script>alert('" + ex.Message + "');</script>");
             }
         }
 
